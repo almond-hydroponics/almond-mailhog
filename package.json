@@ -2,9 +2,22 @@
   "name": "almond-mailhog",
   "version": "1.0.0",
   "description": "Almond safe email testing with mailhog",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/almond-hydroponics/almond-mailhog.git",
   "author": "Francis Masha <francismasha96@gmail.com>",
   "license": "MIT",
-  "private": null
+  "private": false,
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "express",
+    "mailhog"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16"
+  }
 }
