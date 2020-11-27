@@ -1,0 +1,10 @@
+{
+  "name": "almond-mailhog",
+  "version": "1.0.0",
+  "description": "Almond safe email testing with mailhog",
+  "main": "index.js",
+  "repository": "https://github.com/almond-hydroponics/almond-mailhog.git",
+  "author": "Francis Masha <francismasha96@gmail.com>",
+  "license": "MIT",
+  "private": null
+}
